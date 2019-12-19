@@ -9,14 +9,12 @@ class LandingPage extends Component{
         <Grid className="landing-grid">
 
           <Cell col={12}>
-            <div clasName="image-cropper">
+            <div className="banner-text">
               <img
                 src="/images/profilepic.png"
                 alt="avatar"
                 className="avatar-img"
                 />
-            </div>
-            <div className="banner-text">
               <h1>Thuc Phan</h1>
               <h2>UC San Diego Computer Science Student</h2>
               <hr/>
@@ -30,7 +28,10 @@ class LandingPage extends Component{
 
                 </a>
                 <a href="https://www.youtube.com/channel/UCkhNghzgGAUC6C8WvWl8fAQ" target="_blank">
-                  <i className=" fa fa-youtube icon" rel="noopener noreferrer" aria-hidden="true"/>
+                  <i className=" fa fa-youtube-play icon" rel="noopener noreferrer" aria-hidden="true"/>
+                </a>
+                <a href="https://www.instagram.com/thuc.exe/" target="_blank">
+                  <i className=" fa fa-instagram icon" rel="noopener noreferrer" aria-hidden="true"/>
                 </a>
               </div>
             </div>
